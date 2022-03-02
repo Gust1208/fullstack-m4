@@ -1,18 +1,24 @@
 .homeimg {
+    clear: both;
     margin-bottom: 1.5em;
+  
 }
-.imagen{
+.homeimg img {
     width: 100%;
-    
 }
+
+.bienvenidos {
+    width: 65%;
+    padding-right: 2em;
+    float: left;
+}
+
 .bienvenidos, .testimonios {
     box-sizing: border-box;
+    display: inline-block;
 
 }
-.bienvenidos{
-    width: 75%;
-    padding-right: 2em;
-}
+
 .testimonios {
     width: 25%;
 }

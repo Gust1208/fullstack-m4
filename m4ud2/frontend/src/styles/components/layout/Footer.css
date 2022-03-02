@@ -6,6 +6,10 @@ footer{
     margin-top: 2em;
     
  }
- .pie {
-    text-align: center;
+footer p {
+   font-size: 0.7em;
+   font-style: italic;
+   text-align: center;
+   margin: 0;
+
  }

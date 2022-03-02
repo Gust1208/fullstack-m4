@@ -1,9 +1,10 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import './App.css';
+
 
 import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
 import Footer from './components/layout/Footer';
-
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import HomePage from './pages/HomePage';
 import NosotrosPage from './pages/NosotrosPage';
@@ -21,7 +22,7 @@ function App() {
         <Header />
         <Nav />
         <Switch>
-          <Route path="/home" exact component={HomePage} />
+          <Route path="/" exact component={HomePage} />
           <Route path="/nosotros" exact component={NosotrosPage} />
           <Route path="/servicios" exact component={ServiciosPage} />
           <Route path="/novedades" exact component={NovedadesPage} />
