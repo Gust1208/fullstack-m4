@@ -28,12 +28,13 @@
 .persona h6{
     font-size: 0.8em;
     font-style: italic;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 .persona p{
-    font-size: 0.7em;
+    font-size: 0.9em;
     margin: 0 1em 1em;
     color: #444;
+    text-align: center;
 }
 .persona :first-child{
     margin-left: 0;
@@ -42,6 +43,6 @@
     overflow: hidden;
 }
 .personas {
-        font-size: 0.8em;
+        font-size: 0.6em;
 
 }

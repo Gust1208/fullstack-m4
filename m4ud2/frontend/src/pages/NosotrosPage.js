@@ -30,6 +30,7 @@ const NosotrosPage = (props) => {
                    Nació en Rosario, el 24 de febrero de 1991. Ingeniero Agronomo. 
                    Socio fundador en 2018. Encargado de la coordinación general de las tres áreas de la empresa, 
                    creador de la empresa.
+                   
                    </p>         
                </div>
                <div className='persona'>
